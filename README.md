@@ -2,7 +2,7 @@
 
 ## Fronted
 
-![Vista previa del frontend](public/front_preview.PNG)
+![Vista previa del frontend](public/front_preview.png)
 
 ## Api
 ![Vista previa de la api](public/api_preview.PNG)
