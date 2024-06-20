@@ -1,0 +1,29 @@
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="card">
+          <div class="card-body text-center">
+            <form>
+              <div class="mb-3">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control form-control-lg" placeholder="Name" [(ngModel)]="student.name">
+              </div>
+              <div class="mb-3">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" class="form-control form-control-lg" placeholder="Last Name" [(ngModel)]="student.lastname">
+              </div>
+              <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control form-control-lg" placeholder="Email" [(ngModel)]="student.email">
+              </div>
+  
+              <div class="mb-3">
+                <button type="button" (click)="editStudent()" class="btn btn-success">Create</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

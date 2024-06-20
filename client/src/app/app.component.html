@@ -1,0 +1,20 @@
+<main class="container mt-4">
+      <div class="nav">
+        @for (item of [
+          { title: 'Students', link: 'http://localhost:4200/students' },
+          { title: 'Courses', link: 'http://localhost:4200/courses' },
+        ]; track item.title) {
+          <a
+          class="nav-link"
+            [href]="item.link"
+            rel="noopener"
+          >
+            <span>{{ item.title }}</span>
+          </a>
+        }
+  </div>
+</main>
+<section class="container">
+    <router-outlet />
+</section>
+
